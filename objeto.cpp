@@ -11,9 +11,9 @@ Object::Object()
 
 Object::Object(double entry_coord_x, double entry_coord_y, double entry_length)
 {
-  this->coord_x = entry_coord_x;
-  this->coord_y = entry_coord_y;
-  this->length = entry_length;
+  coord_x = entry_coord_x;
+  coord_y = entry_coord_y;
+  length = entry_length;
 }
 
 // Seta novas coordenadas para x
